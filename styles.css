@@ -38,6 +38,7 @@ body {
 
 .profile-section {
     display: flex;
+    flex-direction: row-reverse; /* 👉 CHỈNH TẠI ĐÂY: Đảo chiều để ảnh nằm bên phải */
     align-items: center;
     gap: 2rem;
 }
@@ -405,6 +406,7 @@ body {
         height: 100px;
     }
 }
+
 /* Timeline Styles */
 .timeline-section {
     margin-top: 2.5rem;
